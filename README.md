@@ -67,7 +67,6 @@ multi-label-text-clf/
 ├── data/
 │   ├── processed/
 │   └── raw/
-│       └── arxiv_raw.csv
 ├── mlruns/
 ├── models/
 │   └── distilbert_multilabel/
