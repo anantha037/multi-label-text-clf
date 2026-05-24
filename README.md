@@ -178,9 +178,9 @@ mlflow ui --backend-store-uri mlruns
 
 | Metric | Value |
 | --- | --- |
-| Test F1 Micro | TBD |
-| Test F1 Macro | TBD |
-| Hamming Loss | TBD |
+| Test F1 Micro | 0.6804 |
+| Test F1 Macro | 0.6375 |
+| Hamming Loss | 0.0648 |
 
 ## License
 
