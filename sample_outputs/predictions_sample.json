@@ -1,0 +1,90 @@
+[
+  {
+    "text": "I am so grateful and happy today",
+    "labels": [
+      "gratitude"
+    ],
+    "scores": {
+      "admiration": 0.06930288672447205,
+      "amusement": 0.0052339606918394566,
+      "annoyance": 0.011790352873504162,
+      "approval": 0.02800893597304821,
+      "curiosity": 0.0030639381147921085,
+      "disapproval": 0.007770607713609934,
+      "gratitude": 0.9828060269355774,
+      "love": 0.004587744828313589,
+      "neutral": 0.011616853065788746,
+      "optimism": 0.013233807869255543
+    }
+  },
+  {
+    "text": "This is absolutely infuriating and unfair",
+    "labels": [
+      "annoyance"
+    ],
+    "scores": {
+      "admiration": 0.0158329326659441,
+      "amusement": 0.011635515838861465,
+      "annoyance": 0.6764921545982361,
+      "approval": 0.025463279336690903,
+      "curiosity": 0.01945229060947895,
+      "disapproval": 0.36714836955070496,
+      "gratitude": 0.021599773317575455,
+      "love": 0.005984900984913111,
+      "neutral": 0.053425099700689316,
+      "optimism": 0.014791388995945454
+    }
+  },
+  {
+    "text": "I find this topic really fascinating",
+    "labels": [
+      "admiration"
+    ],
+    "scores": {
+      "admiration": 0.6559174656867981,
+      "amusement": 0.0497768297791481,
+      "annoyance": 0.007363430690020323,
+      "approval": 0.1753067523241043,
+      "curiosity": 0.3401036560535431,
+      "disapproval": 0.004804948344826698,
+      "gratitude": 0.011258491314947605,
+      "love": 0.0346529483795166,
+      "neutral": 0.07633533328771591,
+      "optimism": 0.013087384402751923
+    }
+  },
+  {
+    "text": "Thank you so much, this made my day",
+    "labels": [
+      "gratitude"
+    ],
+    "scores": {
+      "admiration": 0.01983012445271015,
+      "amusement": 0.0064760539680719376,
+      "annoyance": 0.005670639686286449,
+      "approval": 0.01301395334303379,
+      "curiosity": 0.003756416728720069,
+      "disapproval": 0.0059065064415335655,
+      "gratitude": 0.991269588470459,
+      "love": 0.011931211687624454,
+      "neutral": 0.006981879007071257,
+      "optimism": 0.011476032435894012
+    }
+  },
+  {
+    "text": "Im not sure how I feel about this",
+    "labels": [],
+    "scores": {
+      "admiration": 0.001302208285778761,
+      "amusement": 0.0026838378980755806,
+      "annoyance": 0.03047950007021427,
+      "approval": 0.03178992122411728,
+      "curiosity": 0.08240365236997604,
+      "disapproval": 0.2131878137588501,
+      "gratitude": 0.0032232257071882486,
+      "love": 0.0015818456886336207,
+      "neutral": 0.40404555201530457,
+      "optimism": 0.006385433953255415
+    }
+  }
+]
