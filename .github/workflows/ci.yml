@@ -1,0 +1,38 @@
+name: CI Smoke Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install pandas numpy scikit-learn requests
+
+      - name: Run smoke test
+        run: |
+          python -c "
+          from src.config import Config
+          import src.ingest
+          
+          # Check all path constants exist as attributes
+          assert hasattr(Config, 'RAW_DATA_PATH')
+          assert hasattr(Config, 'PROCESSED_DATA_PATH')
+          assert hasattr(Config, 'MODEL_SAVE_PATH')
+          assert hasattr(Config, 'MLFLOW_TRACKING_URI')
+          assert hasattr(Config, 'MAX_SEQ_LENGTH')
+          assert hasattr(Config, 'LABEL_ENCODER_PATH')
+          
+          print('Smoke test passed successfully.')
+          "
