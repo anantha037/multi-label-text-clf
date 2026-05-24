@@ -6,6 +6,7 @@
 ![MLflow](https://img.shields.io/badge/MLflow-2.12.2-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.111.0-009688.svg?style=flat&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=flat&logo=docker&logoColor=white)
+[![CI](https://github.com/anantha037/multi-label-text-clf/actions/workflows/ci.yml/badge.svg)](https://github.com/anantha037/multi-label-text-clf/actions/workflows/ci.yml)
 
 ## Overview
 
@@ -65,10 +66,6 @@ multi-label-text-clf/
 ├── requirements.txt
 ├── data/
 │   ├── processed/
-│   │   ├── label_encoder.pkl
-│   │   ├── train.csv
-│   │   ├── val.csv
-│   │   └── test.csv
 │   └── raw/
 │       └── arxiv_raw.csv
 ├── mlruns/
@@ -93,7 +90,7 @@ multi-label-text-clf/
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/anantha037/multi-label-text-clf.git
    cd multi-label-text-clf
    ```
 
